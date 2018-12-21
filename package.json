@@ -1,0 +1,52 @@
+{
+  "name": "vue-next",
+  "version": "1.0.0",
+  "description": "",
+  "main": " main.js",
+  "scripts": {
+    "build": "webpack",
+    "build-legacy": "npm run build -- --env.build=legacy",
+    "build:dev": "npm run build -- --mode=development",
+    "build:dev-legacy": "npm run build:dev -- --env.build=legacy",
+    "build:prod": "npm run build -- --mode=production",
+    "build:prod-legacy": "npm run build:prod -- --env.build=legacy",
+    "build:prod-hybrid": "npm run build:prod-modern -- --env.hybrid && npm run build:prod-legacy -- --env.hybrid",
+    "serve": "webpack-dev-server --hot --open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.2.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "babel-loader": "^8.0.4",
+    "clean-webpack-plugin": "^1.0.0",
+    "css-loader": "^2.0.0",
+    "file-loader": "^2.0.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "ignore-emit-webpack-plugin": "^1.0.2",
+    "mini-css-extract-plugin": "^0.5.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.4.0",
+    "script-ext-html-webpack-plugin": "^2.1.3",
+    "terser-webpack-plugin": "^1.1.0",
+    "vue-loader": "^15.4.2",
+    "vue-template-compiler": "^2.5.20",
+    "webpack": "^4.27.1",
+    "webpack-bundle-analyzer": "^3.0.3",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10",
+    "webpack-merge": "^4.1.5",
+    "webpack-monitor": "^1.0.14",
+    "workbox-webpack-plugin": "^3.6.3"
+  },
+  "dependencies": {
+    "animate.css": "^3.7.0",
+    "vue": "^2.5.20",
+    "vue-router": "^3.0.2",
+    "vuex": "^3.0.1"
+  }
+}

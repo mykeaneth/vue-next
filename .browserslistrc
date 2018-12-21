@@ -1,0 +1,12 @@
+Edge >= 16
+Chrome >= 57
+ChromeAndroid >= 69
+Firefox >= 52
+FirefoxAndroid  >= 62
+Safari >= 10.1
+iOS >= 10.3
+Opera >= 44
+UCAndroid >= 11.8
+Samsung >= 6.2
+not < 0.1%
+not dead

@@ -1,0 +1,1688 @@
+[
+  {
+    "timeStamp": 1544509572882,
+    "time": 11997,
+    "hash": "14c272e399822fb3e2b3",
+    "errors": [],
+    "size": 442687,
+    "assets": [
+      {
+        "name": "favicon.ico",
+        "chunks": [],
+        "size": 1150
+      },
+      {
+        "name": "images/logo.png",
+        "chunks": [],
+        "size": 6849
+      },
+      {
+        "name": "index.html",
+        "chunks": [],
+        "size": 562
+      },
+      {
+        "name": "scripts/about.mjs",
+        "chunks": [
+          "about"
+        ],
+        "size": 5094
+      },
+      {
+        "name": "scripts/main.mjs",
+        "chunks": [
+          "main"
+        ],
+        "size": 423823
+      },
+      {
+        "name": "scripts/portfolio.mjs",
+        "chunks": [
+          "portfolio"
+        ],
+        "size": 5209
+      }
+    ],
+    "chunks": [
+      {
+        "size": 1632,
+        "files": [
+          "scripts/about.mjs"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/views/About.vue?vue&type=template&id=039c5b43&",
+            "size": 421,
+            "id": "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/views/About.vue?vue&type=template&id=039c5b43&"
+          },
+          {
+            "name": "./src/views/About.vue",
+            "size": 1008,
+            "id": "./src/views/About.vue"
+          },
+          {
+            "name": "./src/views/About.vue?vue&type=template&id=039c5b43&",
+            "size": 203,
+            "id": "./src/views/About.vue?vue&type=template&id=039c5b43&"
+          }
+        ]
+      },
+      {
+        "size": 352954,
+        "files": [
+          "scripts/main.mjs"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Display.vue?vue&type=script&lang=js&",
+            "size": 1317,
+            "id": "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/components/Display.vue?vue&type=script&lang=js&"
+          },
+          {
+            "name": "./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Form.vue?vue&type=script&lang=js&",
+            "size": 158,
+            "id": "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/components/Form.vue?vue&type=script&lang=js&"
+          },
+          {
+            "name": "./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Stats.vue?vue&type=script&lang=js&",
+            "size": 1155,
+            "id": "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/components/Stats.vue?vue&type=script&lang=js&"
+          },
+          {
+            "name": "./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/views/Home.vue?vue&type=script&lang=js&",
+            "size": 216,
+            "id": "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/views/Home.vue?vue&type=script&lang=js&"
+          },
+          {
+            "name": "./node_modules/css-loader/dist/cjs.js??ref--2-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src!./node_modules/vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=postcss&",
+            "size": 545,
+            "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js!./node_modules/vue-loader/lib/index.js?!./src/App.vue?vue&type=style&index=0&lang=postcss&"
+          },
+          {
+            "name": "./node_modules/css-loader/dist/cjs.js??ref--2-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Display.vue?vue&type=style&index=0&lang=postcss&",
+            "size": 206,
+            "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js!./node_modules/vue-loader/lib/index.js?!./src/components/Display.vue?vue&type=style&index=0&lang=postcss&"
+          },
+          {
+            "name": "./node_modules/css-loader/dist/cjs.js??ref--2-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Stats.vue?vue&type=style&index=0&lang=postcss&",
+            "size": 196,
+            "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js!./node_modules/vue-loader/lib/index.js?!./src/components/Stats.vue?vue&type=style&index=0&lang=postcss&"
+          },
+          {
+            "name": "./node_modules/css-loader/dist/runtime/api.js",
+            "size": 2406,
+            "id": "./node_modules/css-loader/dist/runtime/api.js"
+          },
+          {
+            "name": "./node_modules/process/browser.js",
+            "size": 5081,
+            "id": "./node_modules/process/browser.js"
+          },
+          {
+            "name": "./node_modules/setimmediate/setImmediate.js",
+            "size": 5946,
+            "id": "./node_modules/setimmediate/setImmediate.js"
+          },
+          {
+            "name": "./node_modules/timers-browserify/main.js",
+            "size": 1892,
+            "id": "./node_modules/timers-browserify/main.js"
+          },
+          {
+            "name": "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=template&id=7ba5bd90&",
+            "size": 593,
+            "id": "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/App.vue?vue&type=template&id=7ba5bd90&"
+          },
+          {
+            "name": "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Display.vue?vue&type=template&id=07e7cc7c&",
+            "size": 1750,
+            "id": "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/components/Display.vue?vue&type=template&id=07e7cc7c&"
+          },
+          {
+            "name": "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Form.vue?vue&type=template&id=1b5a9218&",
+            "size": 411,
+            "id": "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/components/Form.vue?vue&type=template&id=1b5a9218&"
+          },
+          {
+            "name": "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Stats.vue?vue&type=template&id=7337491f&",
+            "size": 546,
+            "id": "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/components/Stats.vue?vue&type=template&id=7337491f&"
+          },
+          {
+            "name": "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/views/Home.vue?vue&type=template&id=fae5bece&",
+            "size": 450,
+            "id": "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/views/Home.vue?vue&type=template&id=fae5bece&"
+          },
+          {
+            "name": "./node_modules/vue-loader/lib/runtime/componentNormalizer.js",
+            "size": 2689,
+            "id": "./node_modules/vue-loader/lib/runtime/componentNormalizer.js"
+          },
+          {
+            "name": "./node_modules/vue-router/dist/vue-router.esm.js",
+            "size": 65227,
+            "id": "./node_modules/vue-router/dist/vue-router.esm.js"
+          },
+          {
+            "name": "./node_modules/vue-style-loader!./node_modules/css-loader/dist/cjs.js??ref--2-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src!./node_modules/vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=postcss&",
+            "size": 1592,
+            "id": "./node_modules/vue-style-loader/index.js!./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js!./node_modules/vue-loader/lib/index.js?!./src/App.vue?vue&type=style&index=0&lang=postcss&"
+          },
+          {
+            "name": "./node_modules/vue-style-loader!./node_modules/css-loader/dist/cjs.js??ref--2-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Display.vue?vue&type=style&index=0&lang=postcss&",
+            "size": 1643,
+            "id": "./node_modules/vue-style-loader/index.js!./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js!./node_modules/vue-loader/lib/index.js?!./src/components/Display.vue?vue&type=style&index=0&lang=postcss&"
+          },
+          {
+            "name": "./node_modules/vue-style-loader!./node_modules/css-loader/dist/cjs.js??ref--2-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Stats.vue?vue&type=style&index=0&lang=postcss&",
+            "size": 1637,
+            "id": "./node_modules/vue-style-loader/index.js!./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js!./node_modules/vue-loader/lib/index.js?!./src/components/Stats.vue?vue&type=style&index=0&lang=postcss&"
+          },
+          {
+            "name": "./node_modules/vue-style-loader/lib/addStylesClient.js",
+            "size": 6232,
+            "id": "./node_modules/vue-style-loader/lib/addStylesClient.js"
+          },
+          {
+            "name": "./node_modules/vue-style-loader/lib/listToStyles.js",
+            "size": 671,
+            "id": "./node_modules/vue-style-loader/lib/listToStyles.js"
+          },
+          {
+            "name": "./node_modules/vue/dist/vue.runtime.esm.js",
+            "size": 212014,
+            "id": "./node_modules/vue/dist/vue.runtime.esm.js"
+          },
+          {
+            "name": "./node_modules/vuex/dist/vuex.esm.js",
+            "size": 26142,
+            "id": "./node_modules/vuex/dist/vuex.esm.js"
+          },
+          {
+            "name": "(webpack)/buildin/global.js",
+            "size": 475,
+            "id": "./node_modules/webpack/buildin/global.js"
+          },
+          {
+            "name": "./src/App.vue",
+            "size": 1061,
+            "id": "./src/App.vue"
+          },
+          {
+            "name": "./src/App.vue?vue&type=style&index=0&lang=postcss&",
+            "size": 658,
+            "id": "./src/App.vue?vue&type=style&index=0&lang=postcss&"
+          },
+          {
+            "name": "./src/App.vue?vue&type=template&id=7ba5bd90&",
+            "size": 195,
+            "id": "./src/App.vue?vue&type=template&id=7ba5bd90&"
+          },
+          {
+            "name": "./src/assets/images/logo.png",
+            "size": 61,
+            "id": "./src/assets/images/logo.png"
+          },
+          {
+            "name": "./src/components/Display.vue",
+            "size": 1190,
+            "id": "./src/components/Display.vue"
+          },
+          {
+            "name": "./src/components/Display.vue?vue&type=script&lang=js&",
+            "size": 352,
+            "id": "./src/components/Display.vue?vue&type=script&lang=js&"
+          },
+          {
+            "name": "./src/components/Display.vue?vue&type=style&index=0&lang=postcss&",
+            "size": 696,
+            "id": "./src/components/Display.vue?vue&type=style&index=0&lang=postcss&"
+          },
+          {
+            "name": "./src/components/Display.vue?vue&type=template&id=07e7cc7c&",
+            "size": 205,
+            "id": "./src/components/Display.vue?vue&type=template&id=07e7cc7c&"
+          },
+          {
+            "name": "./src/components/Form.vue",
+            "size": 1103,
+            "id": "./src/components/Form.vue"
+          },
+          {
+            "name": "./src/components/Form.vue?vue&type=script&lang=js&",
+            "size": 346,
+            "id": "./src/components/Form.vue?vue&type=script&lang=js&"
+          },
+          {
+            "name": "./src/components/Form.vue?vue&type=template&id=1b5a9218&",
+            "size": 202,
+            "id": "./src/components/Form.vue?vue&type=template&id=1b5a9218&"
+          },
+          {
+            "name": "./src/components/Stats.vue",
+            "size": 1178,
+            "id": "./src/components/Stats.vue"
+          },
+          {
+            "name": "./src/components/Stats.vue?vue&type=script&lang=js&",
+            "size": 348,
+            "id": "./src/components/Stats.vue?vue&type=script&lang=js&"
+          },
+          {
+            "name": "./src/components/Stats.vue?vue&type=style&index=0&lang=postcss&",
+            "size": 692,
+            "id": "./src/components/Stats.vue?vue&type=style&index=0&lang=postcss&"
+          },
+          {
+            "name": "./src/components/Stats.vue?vue&type=template&id=7337491f&",
+            "size": 203,
+            "id": "./src/components/Stats.vue?vue&type=template&id=7337491f&"
+          },
+          {
+            "name": "./src/main.js",
+            "size": 177,
+            "id": "./src/main.js"
+          },
+          {
+            "name": "./src/router.js",
+            "size": 549,
+            "id": "./src/router.js"
+          },
+          {
+            "name": "./src/store.js",
+            "size": 902,
+            "id": "./src/store.js"
+          },
+          {
+            "name": "./src/views/Home.vue",
+            "size": 1098,
+            "id": "./src/views/Home.vue"
+          },
+          {
+            "name": "./src/views/Home.vue?vue&type=script&lang=js&",
+            "size": 346,
+            "id": "./src/views/Home.vue?vue&type=script&lang=js&"
+          },
+          {
+            "name": "./src/views/Home.vue?vue&type=template&id=fae5bece&",
+            "size": 202,
+            "id": "./src/views/Home.vue?vue&type=template&id=fae5bece&"
+          }
+        ]
+      },
+      {
+        "size": 1655,
+        "files": [
+          "scripts/portfolio.mjs"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/views/Portfolio.vue?vue&type=template&id=2357e87e&",
+            "size": 428,
+            "id": "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/views/Portfolio.vue?vue&type=template&id=2357e87e&"
+          },
+          {
+            "name": "./src/views/Portfolio.vue",
+            "size": 1020,
+            "id": "./src/views/Portfolio.vue"
+          },
+          {
+            "name": "./src/views/Portfolio.vue?vue&type=template&id=2357e87e&",
+            "size": 207,
+            "id": "./src/views/Portfolio.vue?vue&type=template&id=2357e87e&"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "timeStamp": 1544510965577,
+    "time": 12529,
+    "hash": "15997b988aad04c8edeb",
+    "errors": [],
+    "size": 442745,
+    "assets": [
+      {
+        "name": "favicon.ico",
+        "chunks": [],
+        "size": 1150
+      },
+      {
+        "name": "images/logo.png",
+        "chunks": [],
+        "size": 6849
+      },
+      {
+        "name": "index.html",
+        "chunks": [],
+        "size": 620
+      },
+      {
+        "name": "scripts/about.mjs",
+        "chunks": [
+          "about"
+        ],
+        "size": 5094
+      },
+      {
+        "name": "scripts/main.mjs",
+        "chunks": [
+          "main"
+        ],
+        "size": 423823
+      },
+      {
+        "name": "scripts/portfolio.mjs",
+        "chunks": [
+          "portfolio"
+        ],
+        "size": 5209
+      }
+    ],
+    "chunks": [
+      {
+        "size": 1632,
+        "files": [
+          "scripts/about.mjs"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/views/About.vue?vue&type=template&id=039c5b43&",
+            "size": 421,
+            "id": "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/views/About.vue?vue&type=template&id=039c5b43&"
+          },
+          {
+            "name": "./src/views/About.vue",
+            "size": 1008,
+            "id": "./src/views/About.vue"
+          },
+          {
+            "name": "./src/views/About.vue?vue&type=template&id=039c5b43&",
+            "size": 203,
+            "id": "./src/views/About.vue?vue&type=template&id=039c5b43&"
+          }
+        ]
+      },
+      {
+        "size": 352954,
+        "files": [
+          "scripts/main.mjs"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Display.vue?vue&type=script&lang=js&",
+            "size": 1317,
+            "id": "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/components/Display.vue?vue&type=script&lang=js&"
+          },
+          {
+            "name": "./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Form.vue?vue&type=script&lang=js&",
+            "size": 158,
+            "id": "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/components/Form.vue?vue&type=script&lang=js&"
+          },
+          {
+            "name": "./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Stats.vue?vue&type=script&lang=js&",
+            "size": 1155,
+            "id": "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/components/Stats.vue?vue&type=script&lang=js&"
+          },
+          {
+            "name": "./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/views/Home.vue?vue&type=script&lang=js&",
+            "size": 216,
+            "id": "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/views/Home.vue?vue&type=script&lang=js&"
+          },
+          {
+            "name": "./node_modules/css-loader/dist/cjs.js??ref--2-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src!./node_modules/vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=postcss&",
+            "size": 545,
+            "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js!./node_modules/vue-loader/lib/index.js?!./src/App.vue?vue&type=style&index=0&lang=postcss&"
+          },
+          {
+            "name": "./node_modules/css-loader/dist/cjs.js??ref--2-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Display.vue?vue&type=style&index=0&lang=postcss&",
+            "size": 206,
+            "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js!./node_modules/vue-loader/lib/index.js?!./src/components/Display.vue?vue&type=style&index=0&lang=postcss&"
+          },
+          {
+            "name": "./node_modules/css-loader/dist/cjs.js??ref--2-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Stats.vue?vue&type=style&index=0&lang=postcss&",
+            "size": 196,
+            "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js!./node_modules/vue-loader/lib/index.js?!./src/components/Stats.vue?vue&type=style&index=0&lang=postcss&"
+          },
+          {
+            "name": "./node_modules/css-loader/dist/runtime/api.js",
+            "size": 2406,
+            "id": "./node_modules/css-loader/dist/runtime/api.js"
+          },
+          {
+            "name": "./node_modules/process/browser.js",
+            "size": 5081,
+            "id": "./node_modules/process/browser.js"
+          },
+          {
+            "name": "./node_modules/setimmediate/setImmediate.js",
+            "size": 5946,
+            "id": "./node_modules/setimmediate/setImmediate.js"
+          },
+          {
+            "name": "./node_modules/timers-browserify/main.js",
+            "size": 1892,
+            "id": "./node_modules/timers-browserify/main.js"
+          },
+          {
+            "name": "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=template&id=7ba5bd90&",
+            "size": 593,
+            "id": "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/App.vue?vue&type=template&id=7ba5bd90&"
+          },
+          {
+            "name": "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Display.vue?vue&type=template&id=07e7cc7c&",
+            "size": 1750,
+            "id": "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/components/Display.vue?vue&type=template&id=07e7cc7c&"
+          },
+          {
+            "name": "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Form.vue?vue&type=template&id=1b5a9218&",
+            "size": 411,
+            "id": "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/components/Form.vue?vue&type=template&id=1b5a9218&"
+          },
+          {
+            "name": "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Stats.vue?vue&type=template&id=7337491f&",
+            "size": 546,
+            "id": "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/components/Stats.vue?vue&type=template&id=7337491f&"
+          },
+          {
+            "name": "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/views/Home.vue?vue&type=template&id=fae5bece&",
+            "size": 450,
+            "id": "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/views/Home.vue?vue&type=template&id=fae5bece&"
+          },
+          {
+            "name": "./node_modules/vue-loader/lib/runtime/componentNormalizer.js",
+            "size": 2689,
+            "id": "./node_modules/vue-loader/lib/runtime/componentNormalizer.js"
+          },
+          {
+            "name": "./node_modules/vue-router/dist/vue-router.esm.js",
+            "size": 65227,
+            "id": "./node_modules/vue-router/dist/vue-router.esm.js"
+          },
+          {
+            "name": "./node_modules/vue-style-loader!./node_modules/css-loader/dist/cjs.js??ref--2-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src!./node_modules/vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=postcss&",
+            "size": 1592,
+            "id": "./node_modules/vue-style-loader/index.js!./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js!./node_modules/vue-loader/lib/index.js?!./src/App.vue?vue&type=style&index=0&lang=postcss&"
+          },
+          {
+            "name": "./node_modules/vue-style-loader!./node_modules/css-loader/dist/cjs.js??ref--2-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Display.vue?vue&type=style&index=0&lang=postcss&",
+            "size": 1643,
+            "id": "./node_modules/vue-style-loader/index.js!./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js!./node_modules/vue-loader/lib/index.js?!./src/components/Display.vue?vue&type=style&index=0&lang=postcss&"
+          },
+          {
+            "name": "./node_modules/vue-style-loader!./node_modules/css-loader/dist/cjs.js??ref--2-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Stats.vue?vue&type=style&index=0&lang=postcss&",
+            "size": 1637,
+            "id": "./node_modules/vue-style-loader/index.js!./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js!./node_modules/vue-loader/lib/index.js?!./src/components/Stats.vue?vue&type=style&index=0&lang=postcss&"
+          },
+          {
+            "name": "./node_modules/vue-style-loader/lib/addStylesClient.js",
+            "size": 6232,
+            "id": "./node_modules/vue-style-loader/lib/addStylesClient.js"
+          },
+          {
+            "name": "./node_modules/vue-style-loader/lib/listToStyles.js",
+            "size": 671,
+            "id": "./node_modules/vue-style-loader/lib/listToStyles.js"
+          },
+          {
+            "name": "./node_modules/vue/dist/vue.runtime.esm.js",
+            "size": 212014,
+            "id": "./node_modules/vue/dist/vue.runtime.esm.js"
+          },
+          {
+            "name": "./node_modules/vuex/dist/vuex.esm.js",
+            "size": 26142,
+            "id": "./node_modules/vuex/dist/vuex.esm.js"
+          },
+          {
+            "name": "(webpack)/buildin/global.js",
+            "size": 475,
+            "id": "./node_modules/webpack/buildin/global.js"
+          },
+          {
+            "name": "./src/App.vue",
+            "size": 1061,
+            "id": "./src/App.vue"
+          },
+          {
+            "name": "./src/App.vue?vue&type=style&index=0&lang=postcss&",
+            "size": 658,
+            "id": "./src/App.vue?vue&type=style&index=0&lang=postcss&"
+          },
+          {
+            "name": "./src/App.vue?vue&type=template&id=7ba5bd90&",
+            "size": 195,
+            "id": "./src/App.vue?vue&type=template&id=7ba5bd90&"
+          },
+          {
+            "name": "./src/assets/images/logo.png",
+            "size": 61,
+            "id": "./src/assets/images/logo.png"
+          },
+          {
+            "name": "./src/components/Display.vue",
+            "size": 1190,
+            "id": "./src/components/Display.vue"
+          },
+          {
+            "name": "./src/components/Display.vue?vue&type=script&lang=js&",
+            "size": 352,
+            "id": "./src/components/Display.vue?vue&type=script&lang=js&"
+          },
+          {
+            "name": "./src/components/Display.vue?vue&type=style&index=0&lang=postcss&",
+            "size": 696,
+            "id": "./src/components/Display.vue?vue&type=style&index=0&lang=postcss&"
+          },
+          {
+            "name": "./src/components/Display.vue?vue&type=template&id=07e7cc7c&",
+            "size": 205,
+            "id": "./src/components/Display.vue?vue&type=template&id=07e7cc7c&"
+          },
+          {
+            "name": "./src/components/Form.vue",
+            "size": 1103,
+            "id": "./src/components/Form.vue"
+          },
+          {
+            "name": "./src/components/Form.vue?vue&type=script&lang=js&",
+            "size": 346,
+            "id": "./src/components/Form.vue?vue&type=script&lang=js&"
+          },
+          {
+            "name": "./src/components/Form.vue?vue&type=template&id=1b5a9218&",
+            "size": 202,
+            "id": "./src/components/Form.vue?vue&type=template&id=1b5a9218&"
+          },
+          {
+            "name": "./src/components/Stats.vue",
+            "size": 1178,
+            "id": "./src/components/Stats.vue"
+          },
+          {
+            "name": "./src/components/Stats.vue?vue&type=script&lang=js&",
+            "size": 348,
+            "id": "./src/components/Stats.vue?vue&type=script&lang=js&"
+          },
+          {
+            "name": "./src/components/Stats.vue?vue&type=style&index=0&lang=postcss&",
+            "size": 692,
+            "id": "./src/components/Stats.vue?vue&type=style&index=0&lang=postcss&"
+          },
+          {
+            "name": "./src/components/Stats.vue?vue&type=template&id=7337491f&",
+            "size": 203,
+            "id": "./src/components/Stats.vue?vue&type=template&id=7337491f&"
+          },
+          {
+            "name": "./src/main.js",
+            "size": 177,
+            "id": "./src/main.js"
+          },
+          {
+            "name": "./src/router.js",
+            "size": 549,
+            "id": "./src/router.js"
+          },
+          {
+            "name": "./src/store.js",
+            "size": 902,
+            "id": "./src/store.js"
+          },
+          {
+            "name": "./src/views/Home.vue",
+            "size": 1098,
+            "id": "./src/views/Home.vue"
+          },
+          {
+            "name": "./src/views/Home.vue?vue&type=script&lang=js&",
+            "size": 346,
+            "id": "./src/views/Home.vue?vue&type=script&lang=js&"
+          },
+          {
+            "name": "./src/views/Home.vue?vue&type=template&id=fae5bece&",
+            "size": 202,
+            "id": "./src/views/Home.vue?vue&type=template&id=fae5bece&"
+          }
+        ]
+      },
+      {
+        "size": 1655,
+        "files": [
+          "scripts/portfolio.mjs"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/views/Portfolio.vue?vue&type=template&id=2357e87e&",
+            "size": 428,
+            "id": "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/views/Portfolio.vue?vue&type=template&id=2357e87e&"
+          },
+          {
+            "name": "./src/views/Portfolio.vue",
+            "size": 1020,
+            "id": "./src/views/Portfolio.vue"
+          },
+          {
+            "name": "./src/views/Portfolio.vue?vue&type=template&id=2357e87e&",
+            "size": 207,
+            "id": "./src/views/Portfolio.vue?vue&type=template&id=2357e87e&"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "timeStamp": 1544511277626,
+    "time": 10183,
+    "hash": "32cdd9104b47a4f4b152",
+    "errors": [],
+    "size": 442739,
+    "assets": [
+      {
+        "name": "favicon.ico",
+        "chunks": [],
+        "size": 1150
+      },
+      {
+        "name": "images/logo.png",
+        "chunks": [],
+        "size": 6849
+      },
+      {
+        "name": "index.html",
+        "chunks": [],
+        "size": 614
+      },
+      {
+        "name": "scripts/about.mjs",
+        "chunks": [
+          "about"
+        ],
+        "size": 5094
+      },
+      {
+        "name": "scripts/main.mjs",
+        "chunks": [
+          "main"
+        ],
+        "size": 423823
+      },
+      {
+        "name": "scripts/portfolio.mjs",
+        "chunks": [
+          "portfolio"
+        ],
+        "size": 5209
+      }
+    ],
+    "chunks": [
+      {
+        "size": 1632,
+        "files": [
+          "scripts/about.mjs"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/views/About.vue?vue&type=template&id=039c5b43&",
+            "size": 421,
+            "id": "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/views/About.vue?vue&type=template&id=039c5b43&"
+          },
+          {
+            "name": "./src/views/About.vue",
+            "size": 1008,
+            "id": "./src/views/About.vue"
+          },
+          {
+            "name": "./src/views/About.vue?vue&type=template&id=039c5b43&",
+            "size": 203,
+            "id": "./src/views/About.vue?vue&type=template&id=039c5b43&"
+          }
+        ]
+      },
+      {
+        "size": 352954,
+        "files": [
+          "scripts/main.mjs"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Display.vue?vue&type=script&lang=js&",
+            "size": 1317,
+            "id": "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/components/Display.vue?vue&type=script&lang=js&"
+          },
+          {
+            "name": "./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Form.vue?vue&type=script&lang=js&",
+            "size": 158,
+            "id": "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/components/Form.vue?vue&type=script&lang=js&"
+          },
+          {
+            "name": "./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Stats.vue?vue&type=script&lang=js&",
+            "size": 1155,
+            "id": "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/components/Stats.vue?vue&type=script&lang=js&"
+          },
+          {
+            "name": "./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/views/Home.vue?vue&type=script&lang=js&",
+            "size": 216,
+            "id": "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/views/Home.vue?vue&type=script&lang=js&"
+          },
+          {
+            "name": "./node_modules/css-loader/dist/cjs.js??ref--2-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src!./node_modules/vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=postcss&",
+            "size": 545,
+            "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js!./node_modules/vue-loader/lib/index.js?!./src/App.vue?vue&type=style&index=0&lang=postcss&"
+          },
+          {
+            "name": "./node_modules/css-loader/dist/cjs.js??ref--2-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Display.vue?vue&type=style&index=0&lang=postcss&",
+            "size": 206,
+            "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js!./node_modules/vue-loader/lib/index.js?!./src/components/Display.vue?vue&type=style&index=0&lang=postcss&"
+          },
+          {
+            "name": "./node_modules/css-loader/dist/cjs.js??ref--2-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Stats.vue?vue&type=style&index=0&lang=postcss&",
+            "size": 196,
+            "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js!./node_modules/vue-loader/lib/index.js?!./src/components/Stats.vue?vue&type=style&index=0&lang=postcss&"
+          },
+          {
+            "name": "./node_modules/css-loader/dist/runtime/api.js",
+            "size": 2406,
+            "id": "./node_modules/css-loader/dist/runtime/api.js"
+          },
+          {
+            "name": "./node_modules/process/browser.js",
+            "size": 5081,
+            "id": "./node_modules/process/browser.js"
+          },
+          {
+            "name": "./node_modules/setimmediate/setImmediate.js",
+            "size": 5946,
+            "id": "./node_modules/setimmediate/setImmediate.js"
+          },
+          {
+            "name": "./node_modules/timers-browserify/main.js",
+            "size": 1892,
+            "id": "./node_modules/timers-browserify/main.js"
+          },
+          {
+            "name": "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=template&id=7ba5bd90&",
+            "size": 593,
+            "id": "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/App.vue?vue&type=template&id=7ba5bd90&"
+          },
+          {
+            "name": "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Display.vue?vue&type=template&id=07e7cc7c&",
+            "size": 1750,
+            "id": "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/components/Display.vue?vue&type=template&id=07e7cc7c&"
+          },
+          {
+            "name": "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Form.vue?vue&type=template&id=1b5a9218&",
+            "size": 411,
+            "id": "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/components/Form.vue?vue&type=template&id=1b5a9218&"
+          },
+          {
+            "name": "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Stats.vue?vue&type=template&id=7337491f&",
+            "size": 546,
+            "id": "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/components/Stats.vue?vue&type=template&id=7337491f&"
+          },
+          {
+            "name": "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/views/Home.vue?vue&type=template&id=fae5bece&",
+            "size": 450,
+            "id": "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/views/Home.vue?vue&type=template&id=fae5bece&"
+          },
+          {
+            "name": "./node_modules/vue-loader/lib/runtime/componentNormalizer.js",
+            "size": 2689,
+            "id": "./node_modules/vue-loader/lib/runtime/componentNormalizer.js"
+          },
+          {
+            "name": "./node_modules/vue-router/dist/vue-router.esm.js",
+            "size": 65227,
+            "id": "./node_modules/vue-router/dist/vue-router.esm.js"
+          },
+          {
+            "name": "./node_modules/vue-style-loader!./node_modules/css-loader/dist/cjs.js??ref--2-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src!./node_modules/vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=postcss&",
+            "size": 1592,
+            "id": "./node_modules/vue-style-loader/index.js!./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js!./node_modules/vue-loader/lib/index.js?!./src/App.vue?vue&type=style&index=0&lang=postcss&"
+          },
+          {
+            "name": "./node_modules/vue-style-loader!./node_modules/css-loader/dist/cjs.js??ref--2-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Display.vue?vue&type=style&index=0&lang=postcss&",
+            "size": 1643,
+            "id": "./node_modules/vue-style-loader/index.js!./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js!./node_modules/vue-loader/lib/index.js?!./src/components/Display.vue?vue&type=style&index=0&lang=postcss&"
+          },
+          {
+            "name": "./node_modules/vue-style-loader!./node_modules/css-loader/dist/cjs.js??ref--2-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Stats.vue?vue&type=style&index=0&lang=postcss&",
+            "size": 1637,
+            "id": "./node_modules/vue-style-loader/index.js!./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js!./node_modules/vue-loader/lib/index.js?!./src/components/Stats.vue?vue&type=style&index=0&lang=postcss&"
+          },
+          {
+            "name": "./node_modules/vue-style-loader/lib/addStylesClient.js",
+            "size": 6232,
+            "id": "./node_modules/vue-style-loader/lib/addStylesClient.js"
+          },
+          {
+            "name": "./node_modules/vue-style-loader/lib/listToStyles.js",
+            "size": 671,
+            "id": "./node_modules/vue-style-loader/lib/listToStyles.js"
+          },
+          {
+            "name": "./node_modules/vue/dist/vue.runtime.esm.js",
+            "size": 212014,
+            "id": "./node_modules/vue/dist/vue.runtime.esm.js"
+          },
+          {
+            "name": "./node_modules/vuex/dist/vuex.esm.js",
+            "size": 26142,
+            "id": "./node_modules/vuex/dist/vuex.esm.js"
+          },
+          {
+            "name": "(webpack)/buildin/global.js",
+            "size": 475,
+            "id": "./node_modules/webpack/buildin/global.js"
+          },
+          {
+            "name": "./src/App.vue",
+            "size": 1061,
+            "id": "./src/App.vue"
+          },
+          {
+            "name": "./src/App.vue?vue&type=style&index=0&lang=postcss&",
+            "size": 658,
+            "id": "./src/App.vue?vue&type=style&index=0&lang=postcss&"
+          },
+          {
+            "name": "./src/App.vue?vue&type=template&id=7ba5bd90&",
+            "size": 195,
+            "id": "./src/App.vue?vue&type=template&id=7ba5bd90&"
+          },
+          {
+            "name": "./src/assets/images/logo.png",
+            "size": 61,
+            "id": "./src/assets/images/logo.png"
+          },
+          {
+            "name": "./src/components/Display.vue",
+            "size": 1190,
+            "id": "./src/components/Display.vue"
+          },
+          {
+            "name": "./src/components/Display.vue?vue&type=script&lang=js&",
+            "size": 352,
+            "id": "./src/components/Display.vue?vue&type=script&lang=js&"
+          },
+          {
+            "name": "./src/components/Display.vue?vue&type=style&index=0&lang=postcss&",
+            "size": 696,
+            "id": "./src/components/Display.vue?vue&type=style&index=0&lang=postcss&"
+          },
+          {
+            "name": "./src/components/Display.vue?vue&type=template&id=07e7cc7c&",
+            "size": 205,
+            "id": "./src/components/Display.vue?vue&type=template&id=07e7cc7c&"
+          },
+          {
+            "name": "./src/components/Form.vue",
+            "size": 1103,
+            "id": "./src/components/Form.vue"
+          },
+          {
+            "name": "./src/components/Form.vue?vue&type=script&lang=js&",
+            "size": 346,
+            "id": "./src/components/Form.vue?vue&type=script&lang=js&"
+          },
+          {
+            "name": "./src/components/Form.vue?vue&type=template&id=1b5a9218&",
+            "size": 202,
+            "id": "./src/components/Form.vue?vue&type=template&id=1b5a9218&"
+          },
+          {
+            "name": "./src/components/Stats.vue",
+            "size": 1178,
+            "id": "./src/components/Stats.vue"
+          },
+          {
+            "name": "./src/components/Stats.vue?vue&type=script&lang=js&",
+            "size": 348,
+            "id": "./src/components/Stats.vue?vue&type=script&lang=js&"
+          },
+          {
+            "name": "./src/components/Stats.vue?vue&type=style&index=0&lang=postcss&",
+            "size": 692,
+            "id": "./src/components/Stats.vue?vue&type=style&index=0&lang=postcss&"
+          },
+          {
+            "name": "./src/components/Stats.vue?vue&type=template&id=7337491f&",
+            "size": 203,
+            "id": "./src/components/Stats.vue?vue&type=template&id=7337491f&"
+          },
+          {
+            "name": "./src/main.js",
+            "size": 177,
+            "id": "./src/main.js"
+          },
+          {
+            "name": "./src/router.js",
+            "size": 549,
+            "id": "./src/router.js"
+          },
+          {
+            "name": "./src/store.js",
+            "size": 902,
+            "id": "./src/store.js"
+          },
+          {
+            "name": "./src/views/Home.vue",
+            "size": 1098,
+            "id": "./src/views/Home.vue"
+          },
+          {
+            "name": "./src/views/Home.vue?vue&type=script&lang=js&",
+            "size": 346,
+            "id": "./src/views/Home.vue?vue&type=script&lang=js&"
+          },
+          {
+            "name": "./src/views/Home.vue?vue&type=template&id=fae5bece&",
+            "size": 202,
+            "id": "./src/views/Home.vue?vue&type=template&id=fae5bece&"
+          }
+        ]
+      },
+      {
+        "size": 1655,
+        "files": [
+          "scripts/portfolio.mjs"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/views/Portfolio.vue?vue&type=template&id=2357e87e&",
+            "size": 428,
+            "id": "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/views/Portfolio.vue?vue&type=template&id=2357e87e&"
+          },
+          {
+            "name": "./src/views/Portfolio.vue",
+            "size": 1020,
+            "id": "./src/views/Portfolio.vue"
+          },
+          {
+            "name": "./src/views/Portfolio.vue?vue&type=template&id=2357e87e&",
+            "size": 207,
+            "id": "./src/views/Portfolio.vue?vue&type=template&id=2357e87e&"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "timeStamp": 1544515357117,
+    "time": 24624,
+    "hash": "2b9f18411a4a9c4103e0",
+    "errors": [],
+    "size": 437639,
+    "assets": [
+      {
+        "name": "favicon.ico",
+        "chunks": [],
+        "size": 1150
+      },
+      {
+        "name": "images/logo.png",
+        "chunks": [],
+        "size": 6849
+      },
+      {
+        "name": "index.html",
+        "chunks": [],
+        "size": 608
+      },
+      {
+        "name": "scripts/main.mjs",
+        "chunks": [
+          "main"
+        ],
+        "size": 423823
+      },
+      {
+        "name": "scripts/portfolio.mjs",
+        "chunks": [
+          "portfolio"
+        ],
+        "size": 5209
+      }
+    ],
+    "chunks": [
+      {
+        "size": 1632,
+        "files": [
+          "scripts/about.mjs"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/views/About.vue?vue&type=template&id=039c5b43&",
+            "size": 421,
+            "id": "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/views/About.vue?vue&type=template&id=039c5b43&"
+          },
+          {
+            "name": "./src/views/About.vue",
+            "size": 1008,
+            "id": "./src/views/About.vue"
+          },
+          {
+            "name": "./src/views/About.vue?vue&type=template&id=039c5b43&",
+            "size": 203,
+            "id": "./src/views/About.vue?vue&type=template&id=039c5b43&"
+          }
+        ]
+      },
+      {
+        "size": 352954,
+        "files": [
+          "scripts/main.mjs"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Display.vue?vue&type=script&lang=js&",
+            "size": 1317,
+            "id": "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/components/Display.vue?vue&type=script&lang=js&"
+          },
+          {
+            "name": "./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Form.vue?vue&type=script&lang=js&",
+            "size": 158,
+            "id": "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/components/Form.vue?vue&type=script&lang=js&"
+          },
+          {
+            "name": "./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Stats.vue?vue&type=script&lang=js&",
+            "size": 1155,
+            "id": "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/components/Stats.vue?vue&type=script&lang=js&"
+          },
+          {
+            "name": "./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/views/Home.vue?vue&type=script&lang=js&",
+            "size": 216,
+            "id": "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/views/Home.vue?vue&type=script&lang=js&"
+          },
+          {
+            "name": "./node_modules/css-loader/dist/cjs.js??ref--2-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src!./node_modules/vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=postcss&",
+            "size": 545,
+            "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js!./node_modules/vue-loader/lib/index.js?!./src/App.vue?vue&type=style&index=0&lang=postcss&"
+          },
+          {
+            "name": "./node_modules/css-loader/dist/cjs.js??ref--2-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Display.vue?vue&type=style&index=0&lang=postcss&",
+            "size": 206,
+            "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js!./node_modules/vue-loader/lib/index.js?!./src/components/Display.vue?vue&type=style&index=0&lang=postcss&"
+          },
+          {
+            "name": "./node_modules/css-loader/dist/cjs.js??ref--2-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Stats.vue?vue&type=style&index=0&lang=postcss&",
+            "size": 196,
+            "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js!./node_modules/vue-loader/lib/index.js?!./src/components/Stats.vue?vue&type=style&index=0&lang=postcss&"
+          },
+          {
+            "name": "./node_modules/css-loader/dist/runtime/api.js",
+            "size": 2406,
+            "id": "./node_modules/css-loader/dist/runtime/api.js"
+          },
+          {
+            "name": "./node_modules/process/browser.js",
+            "size": 5081,
+            "id": "./node_modules/process/browser.js"
+          },
+          {
+            "name": "./node_modules/setimmediate/setImmediate.js",
+            "size": 5946,
+            "id": "./node_modules/setimmediate/setImmediate.js"
+          },
+          {
+            "name": "./node_modules/timers-browserify/main.js",
+            "size": 1892,
+            "id": "./node_modules/timers-browserify/main.js"
+          },
+          {
+            "name": "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=template&id=7ba5bd90&",
+            "size": 593,
+            "id": "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/App.vue?vue&type=template&id=7ba5bd90&"
+          },
+          {
+            "name": "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Display.vue?vue&type=template&id=07e7cc7c&",
+            "size": 1750,
+            "id": "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/components/Display.vue?vue&type=template&id=07e7cc7c&"
+          },
+          {
+            "name": "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Form.vue?vue&type=template&id=1b5a9218&",
+            "size": 411,
+            "id": "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/components/Form.vue?vue&type=template&id=1b5a9218&"
+          },
+          {
+            "name": "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Stats.vue?vue&type=template&id=7337491f&",
+            "size": 546,
+            "id": "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/components/Stats.vue?vue&type=template&id=7337491f&"
+          },
+          {
+            "name": "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/views/Home.vue?vue&type=template&id=fae5bece&",
+            "size": 450,
+            "id": "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/views/Home.vue?vue&type=template&id=fae5bece&"
+          },
+          {
+            "name": "./node_modules/vue-loader/lib/runtime/componentNormalizer.js",
+            "size": 2689,
+            "id": "./node_modules/vue-loader/lib/runtime/componentNormalizer.js"
+          },
+          {
+            "name": "./node_modules/vue-router/dist/vue-router.esm.js",
+            "size": 65227,
+            "id": "./node_modules/vue-router/dist/vue-router.esm.js"
+          },
+          {
+            "name": "./node_modules/vue-style-loader!./node_modules/css-loader/dist/cjs.js??ref--2-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src!./node_modules/vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=postcss&",
+            "size": 1592,
+            "id": "./node_modules/vue-style-loader/index.js!./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js!./node_modules/vue-loader/lib/index.js?!./src/App.vue?vue&type=style&index=0&lang=postcss&"
+          },
+          {
+            "name": "./node_modules/vue-style-loader!./node_modules/css-loader/dist/cjs.js??ref--2-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Display.vue?vue&type=style&index=0&lang=postcss&",
+            "size": 1643,
+            "id": "./node_modules/vue-style-loader/index.js!./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js!./node_modules/vue-loader/lib/index.js?!./src/components/Display.vue?vue&type=style&index=0&lang=postcss&"
+          },
+          {
+            "name": "./node_modules/vue-style-loader!./node_modules/css-loader/dist/cjs.js??ref--2-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Stats.vue?vue&type=style&index=0&lang=postcss&",
+            "size": 1637,
+            "id": "./node_modules/vue-style-loader/index.js!./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js!./node_modules/vue-loader/lib/index.js?!./src/components/Stats.vue?vue&type=style&index=0&lang=postcss&"
+          },
+          {
+            "name": "./node_modules/vue-style-loader/lib/addStylesClient.js",
+            "size": 6232,
+            "id": "./node_modules/vue-style-loader/lib/addStylesClient.js"
+          },
+          {
+            "name": "./node_modules/vue-style-loader/lib/listToStyles.js",
+            "size": 671,
+            "id": "./node_modules/vue-style-loader/lib/listToStyles.js"
+          },
+          {
+            "name": "./node_modules/vue/dist/vue.runtime.esm.js",
+            "size": 212014,
+            "id": "./node_modules/vue/dist/vue.runtime.esm.js"
+          },
+          {
+            "name": "./node_modules/vuex/dist/vuex.esm.js",
+            "size": 26142,
+            "id": "./node_modules/vuex/dist/vuex.esm.js"
+          },
+          {
+            "name": "(webpack)/buildin/global.js",
+            "size": 475,
+            "id": "./node_modules/webpack/buildin/global.js"
+          },
+          {
+            "name": "./src/App.vue",
+            "size": 1061,
+            "id": "./src/App.vue"
+          },
+          {
+            "name": "./src/App.vue?vue&type=style&index=0&lang=postcss&",
+            "size": 658,
+            "id": "./src/App.vue?vue&type=style&index=0&lang=postcss&"
+          },
+          {
+            "name": "./src/App.vue?vue&type=template&id=7ba5bd90&",
+            "size": 195,
+            "id": "./src/App.vue?vue&type=template&id=7ba5bd90&"
+          },
+          {
+            "name": "./src/assets/images/logo.png",
+            "size": 61,
+            "id": "./src/assets/images/logo.png"
+          },
+          {
+            "name": "./src/components/Display.vue",
+            "size": 1190,
+            "id": "./src/components/Display.vue"
+          },
+          {
+            "name": "./src/components/Display.vue?vue&type=script&lang=js&",
+            "size": 352,
+            "id": "./src/components/Display.vue?vue&type=script&lang=js&"
+          },
+          {
+            "name": "./src/components/Display.vue?vue&type=style&index=0&lang=postcss&",
+            "size": 696,
+            "id": "./src/components/Display.vue?vue&type=style&index=0&lang=postcss&"
+          },
+          {
+            "name": "./src/components/Display.vue?vue&type=template&id=07e7cc7c&",
+            "size": 205,
+            "id": "./src/components/Display.vue?vue&type=template&id=07e7cc7c&"
+          },
+          {
+            "name": "./src/components/Form.vue",
+            "size": 1103,
+            "id": "./src/components/Form.vue"
+          },
+          {
+            "name": "./src/components/Form.vue?vue&type=script&lang=js&",
+            "size": 346,
+            "id": "./src/components/Form.vue?vue&type=script&lang=js&"
+          },
+          {
+            "name": "./src/components/Form.vue?vue&type=template&id=1b5a9218&",
+            "size": 202,
+            "id": "./src/components/Form.vue?vue&type=template&id=1b5a9218&"
+          },
+          {
+            "name": "./src/components/Stats.vue",
+            "size": 1178,
+            "id": "./src/components/Stats.vue"
+          },
+          {
+            "name": "./src/components/Stats.vue?vue&type=script&lang=js&",
+            "size": 348,
+            "id": "./src/components/Stats.vue?vue&type=script&lang=js&"
+          },
+          {
+            "name": "./src/components/Stats.vue?vue&type=style&index=0&lang=postcss&",
+            "size": 692,
+            "id": "./src/components/Stats.vue?vue&type=style&index=0&lang=postcss&"
+          },
+          {
+            "name": "./src/components/Stats.vue?vue&type=template&id=7337491f&",
+            "size": 203,
+            "id": "./src/components/Stats.vue?vue&type=template&id=7337491f&"
+          },
+          {
+            "name": "./src/main.js",
+            "size": 177,
+            "id": "./src/main.js"
+          },
+          {
+            "name": "./src/router.js",
+            "size": 549,
+            "id": "./src/router.js"
+          },
+          {
+            "name": "./src/store.js",
+            "size": 902,
+            "id": "./src/store.js"
+          },
+          {
+            "name": "./src/views/Home.vue",
+            "size": 1098,
+            "id": "./src/views/Home.vue"
+          },
+          {
+            "name": "./src/views/Home.vue?vue&type=script&lang=js&",
+            "size": 346,
+            "id": "./src/views/Home.vue?vue&type=script&lang=js&"
+          },
+          {
+            "name": "./src/views/Home.vue?vue&type=template&id=fae5bece&",
+            "size": 202,
+            "id": "./src/views/Home.vue?vue&type=template&id=fae5bece&"
+          }
+        ]
+      },
+      {
+        "size": 1655,
+        "files": [
+          "scripts/portfolio.mjs"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/views/Portfolio.vue?vue&type=template&id=2357e87e&",
+            "size": 428,
+            "id": "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/views/Portfolio.vue?vue&type=template&id=2357e87e&"
+          },
+          {
+            "name": "./src/views/Portfolio.vue",
+            "size": 1020,
+            "id": "./src/views/Portfolio.vue"
+          },
+          {
+            "name": "./src/views/Portfolio.vue?vue&type=template&id=2357e87e&",
+            "size": 207,
+            "id": "./src/views/Portfolio.vue?vue&type=template&id=2357e87e&"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "timeStamp": 1544515784639,
+    "time": 12219,
+    "hash": "37bda17f66d9ae9350cb",
+    "errors": [],
+    "size": 447286,
+    "assets": [
+      {
+        "name": "favicon.ico",
+        "chunks": [],
+        "size": 1150
+      },
+      {
+        "name": "images/logo.png",
+        "chunks": [],
+        "size": 6849
+      },
+      {
+        "name": "index.html",
+        "chunks": [],
+        "size": 5160
+      },
+      {
+        "name": "scripts/about.mjs",
+        "chunks": [
+          "about"
+        ],
+        "size": 5094
+      },
+      {
+        "name": "scripts/index.mjs",
+        "chunks": [
+          "index"
+        ],
+        "size": 423824
+      },
+      {
+        "name": "scripts/portfolio.mjs",
+        "chunks": [
+          "portfolio"
+        ],
+        "size": 5209
+      }
+    ],
+    "chunks": [
+      {
+        "size": 1632,
+        "files": [
+          "scripts/about.mjs"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/views/About.vue?vue&type=template&id=039c5b43&",
+            "size": 421,
+            "id": "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/views/About.vue?vue&type=template&id=039c5b43&"
+          },
+          {
+            "name": "./src/views/About.vue",
+            "size": 1008,
+            "id": "./src/views/About.vue"
+          },
+          {
+            "name": "./src/views/About.vue?vue&type=template&id=039c5b43&",
+            "size": 203,
+            "id": "./src/views/About.vue?vue&type=template&id=039c5b43&"
+          }
+        ]
+      },
+      {
+        "size": 352954,
+        "files": [
+          "scripts/index.mjs"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Display.vue?vue&type=script&lang=js&",
+            "size": 1317,
+            "id": "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/components/Display.vue?vue&type=script&lang=js&"
+          },
+          {
+            "name": "./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Form.vue?vue&type=script&lang=js&",
+            "size": 158,
+            "id": "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/components/Form.vue?vue&type=script&lang=js&"
+          },
+          {
+            "name": "./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Stats.vue?vue&type=script&lang=js&",
+            "size": 1155,
+            "id": "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/components/Stats.vue?vue&type=script&lang=js&"
+          },
+          {
+            "name": "./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/views/Home.vue?vue&type=script&lang=js&",
+            "size": 216,
+            "id": "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/views/Home.vue?vue&type=script&lang=js&"
+          },
+          {
+            "name": "./node_modules/css-loader/dist/cjs.js??ref--2-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src!./node_modules/vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=postcss&",
+            "size": 545,
+            "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js!./node_modules/vue-loader/lib/index.js?!./src/App.vue?vue&type=style&index=0&lang=postcss&"
+          },
+          {
+            "name": "./node_modules/css-loader/dist/cjs.js??ref--2-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Display.vue?vue&type=style&index=0&lang=postcss&",
+            "size": 206,
+            "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js!./node_modules/vue-loader/lib/index.js?!./src/components/Display.vue?vue&type=style&index=0&lang=postcss&"
+          },
+          {
+            "name": "./node_modules/css-loader/dist/cjs.js??ref--2-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Stats.vue?vue&type=style&index=0&lang=postcss&",
+            "size": 196,
+            "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js!./node_modules/vue-loader/lib/index.js?!./src/components/Stats.vue?vue&type=style&index=0&lang=postcss&"
+          },
+          {
+            "name": "./node_modules/css-loader/dist/runtime/api.js",
+            "size": 2406,
+            "id": "./node_modules/css-loader/dist/runtime/api.js"
+          },
+          {
+            "name": "./node_modules/process/browser.js",
+            "size": 5081,
+            "id": "./node_modules/process/browser.js"
+          },
+          {
+            "name": "./node_modules/setimmediate/setImmediate.js",
+            "size": 5946,
+            "id": "./node_modules/setimmediate/setImmediate.js"
+          },
+          {
+            "name": "./node_modules/timers-browserify/main.js",
+            "size": 1892,
+            "id": "./node_modules/timers-browserify/main.js"
+          },
+          {
+            "name": "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=template&id=7ba5bd90&",
+            "size": 593,
+            "id": "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/App.vue?vue&type=template&id=7ba5bd90&"
+          },
+          {
+            "name": "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Display.vue?vue&type=template&id=07e7cc7c&",
+            "size": 1750,
+            "id": "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/components/Display.vue?vue&type=template&id=07e7cc7c&"
+          },
+          {
+            "name": "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Form.vue?vue&type=template&id=1b5a9218&",
+            "size": 411,
+            "id": "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/components/Form.vue?vue&type=template&id=1b5a9218&"
+          },
+          {
+            "name": "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Stats.vue?vue&type=template&id=7337491f&",
+            "size": 546,
+            "id": "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/components/Stats.vue?vue&type=template&id=7337491f&"
+          },
+          {
+            "name": "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/views/Home.vue?vue&type=template&id=fae5bece&",
+            "size": 450,
+            "id": "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/views/Home.vue?vue&type=template&id=fae5bece&"
+          },
+          {
+            "name": "./node_modules/vue-loader/lib/runtime/componentNormalizer.js",
+            "size": 2689,
+            "id": "./node_modules/vue-loader/lib/runtime/componentNormalizer.js"
+          },
+          {
+            "name": "./node_modules/vue-router/dist/vue-router.esm.js",
+            "size": 65227,
+            "id": "./node_modules/vue-router/dist/vue-router.esm.js"
+          },
+          {
+            "name": "./node_modules/vue-style-loader!./node_modules/css-loader/dist/cjs.js??ref--2-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src!./node_modules/vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=postcss&",
+            "size": 1592,
+            "id": "./node_modules/vue-style-loader/index.js!./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js!./node_modules/vue-loader/lib/index.js?!./src/App.vue?vue&type=style&index=0&lang=postcss&"
+          },
+          {
+            "name": "./node_modules/vue-style-loader!./node_modules/css-loader/dist/cjs.js??ref--2-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Display.vue?vue&type=style&index=0&lang=postcss&",
+            "size": 1643,
+            "id": "./node_modules/vue-style-loader/index.js!./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js!./node_modules/vue-loader/lib/index.js?!./src/components/Display.vue?vue&type=style&index=0&lang=postcss&"
+          },
+          {
+            "name": "./node_modules/vue-style-loader!./node_modules/css-loader/dist/cjs.js??ref--2-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Stats.vue?vue&type=style&index=0&lang=postcss&",
+            "size": 1637,
+            "id": "./node_modules/vue-style-loader/index.js!./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js!./node_modules/vue-loader/lib/index.js?!./src/components/Stats.vue?vue&type=style&index=0&lang=postcss&"
+          },
+          {
+            "name": "./node_modules/vue-style-loader/lib/addStylesClient.js",
+            "size": 6232,
+            "id": "./node_modules/vue-style-loader/lib/addStylesClient.js"
+          },
+          {
+            "name": "./node_modules/vue-style-loader/lib/listToStyles.js",
+            "size": 671,
+            "id": "./node_modules/vue-style-loader/lib/listToStyles.js"
+          },
+          {
+            "name": "./node_modules/vue/dist/vue.runtime.esm.js",
+            "size": 212014,
+            "id": "./node_modules/vue/dist/vue.runtime.esm.js"
+          },
+          {
+            "name": "./node_modules/vuex/dist/vuex.esm.js",
+            "size": 26142,
+            "id": "./node_modules/vuex/dist/vuex.esm.js"
+          },
+          {
+            "name": "(webpack)/buildin/global.js",
+            "size": 475,
+            "id": "./node_modules/webpack/buildin/global.js"
+          },
+          {
+            "name": "./src/App.vue",
+            "size": 1061,
+            "id": "./src/App.vue"
+          },
+          {
+            "name": "./src/App.vue?vue&type=style&index=0&lang=postcss&",
+            "size": 658,
+            "id": "./src/App.vue?vue&type=style&index=0&lang=postcss&"
+          },
+          {
+            "name": "./src/App.vue?vue&type=template&id=7ba5bd90&",
+            "size": 195,
+            "id": "./src/App.vue?vue&type=template&id=7ba5bd90&"
+          },
+          {
+            "name": "./src/assets/images/logo.png",
+            "size": 61,
+            "id": "./src/assets/images/logo.png"
+          },
+          {
+            "name": "./src/components/Display.vue",
+            "size": 1190,
+            "id": "./src/components/Display.vue"
+          },
+          {
+            "name": "./src/components/Display.vue?vue&type=script&lang=js&",
+            "size": 352,
+            "id": "./src/components/Display.vue?vue&type=script&lang=js&"
+          },
+          {
+            "name": "./src/components/Display.vue?vue&type=style&index=0&lang=postcss&",
+            "size": 696,
+            "id": "./src/components/Display.vue?vue&type=style&index=0&lang=postcss&"
+          },
+          {
+            "name": "./src/components/Display.vue?vue&type=template&id=07e7cc7c&",
+            "size": 205,
+            "id": "./src/components/Display.vue?vue&type=template&id=07e7cc7c&"
+          },
+          {
+            "name": "./src/components/Form.vue",
+            "size": 1103,
+            "id": "./src/components/Form.vue"
+          },
+          {
+            "name": "./src/components/Form.vue?vue&type=script&lang=js&",
+            "size": 346,
+            "id": "./src/components/Form.vue?vue&type=script&lang=js&"
+          },
+          {
+            "name": "./src/components/Form.vue?vue&type=template&id=1b5a9218&",
+            "size": 202,
+            "id": "./src/components/Form.vue?vue&type=template&id=1b5a9218&"
+          },
+          {
+            "name": "./src/components/Stats.vue",
+            "size": 1178,
+            "id": "./src/components/Stats.vue"
+          },
+          {
+            "name": "./src/components/Stats.vue?vue&type=script&lang=js&",
+            "size": 348,
+            "id": "./src/components/Stats.vue?vue&type=script&lang=js&"
+          },
+          {
+            "name": "./src/components/Stats.vue?vue&type=style&index=0&lang=postcss&",
+            "size": 692,
+            "id": "./src/components/Stats.vue?vue&type=style&index=0&lang=postcss&"
+          },
+          {
+            "name": "./src/components/Stats.vue?vue&type=template&id=7337491f&",
+            "size": 203,
+            "id": "./src/components/Stats.vue?vue&type=template&id=7337491f&"
+          },
+          {
+            "name": "./src/main.js",
+            "size": 177,
+            "id": "./src/main.js"
+          },
+          {
+            "name": "./src/router.js",
+            "size": 549,
+            "id": "./src/router.js"
+          },
+          {
+            "name": "./src/store.js",
+            "size": 902,
+            "id": "./src/store.js"
+          },
+          {
+            "name": "./src/views/Home.vue",
+            "size": 1098,
+            "id": "./src/views/Home.vue"
+          },
+          {
+            "name": "./src/views/Home.vue?vue&type=script&lang=js&",
+            "size": 346,
+            "id": "./src/views/Home.vue?vue&type=script&lang=js&"
+          },
+          {
+            "name": "./src/views/Home.vue?vue&type=template&id=fae5bece&",
+            "size": 202,
+            "id": "./src/views/Home.vue?vue&type=template&id=fae5bece&"
+          }
+        ]
+      },
+      {
+        "size": 1655,
+        "files": [
+          "scripts/portfolio.mjs"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/views/Portfolio.vue?vue&type=template&id=2357e87e&",
+            "size": 428,
+            "id": "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/views/Portfolio.vue?vue&type=template&id=2357e87e&"
+          },
+          {
+            "name": "./src/views/Portfolio.vue",
+            "size": 1020,
+            "id": "./src/views/Portfolio.vue"
+          },
+          {
+            "name": "./src/views/Portfolio.vue?vue&type=template&id=2357e87e&",
+            "size": 207,
+            "id": "./src/views/Portfolio.vue?vue&type=template&id=2357e87e&"
+          }
+        ]
+      },
+      {
+        "size": 510,
+        "files": [
+          "scripts/shim.mjs"
+        ],
+        "modules": [
+          {
+            "name": "./src/assets/scripts/nomodule-shim.js",
+            "size": 510,
+            "id": "./src/assets/scripts/nomodule-shim.js"
+          }
+        ]
+      }
+    ]
+  }
+]
